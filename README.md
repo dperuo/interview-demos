@@ -1,4 +1,4 @@
 Interview Demos
 ===============
 
-Answers to common JavaScript and CSS questions I'm asked at interviews.
+Answers for common technical questions I'm asked at interviews.
