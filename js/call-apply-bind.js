@@ -5,7 +5,7 @@
 var myFancyObj = {
   name: 'Jill',
   fn: function(arg1, arg2) {
-    return [this.name, ' says ', arg1, ' and ', arg2].join('');
+    return [this.name, 'says', arg1, 'and', arg2].join(' ');
   }
 };
 
