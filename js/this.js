@@ -1,5 +1,5 @@
 /**
- * 'this' references the current scope
+ * `this` references the current scope
  */
 
 /**
