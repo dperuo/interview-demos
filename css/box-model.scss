@@ -1,7 +1,7 @@
 // #BOX-MODEL
 //
 // HTML elements are represented as rectangular boxes.
-// The CSS Box Model describes how to draw these boxes.
+// The CSS Box Model describes how browsers draw these boxes.
 
 // The default box model is Content Box.
 // Content Box excludes padding, border and margin in width and height calculations.
@@ -14,7 +14,7 @@
 
 // The final width of .box--schrodinger is 320px.
 
-// Best Practice recommends using Border Box when writing CSS.
+// Best Practice recommends using Border Box.
 // Border Box includes padding, border and margin in width and height calculations.
 
 .box--heisenberg {
