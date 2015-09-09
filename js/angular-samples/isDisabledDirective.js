@@ -16,7 +16,7 @@ app.directive('isDisabledDirective', [
           'opacity': '0.25'
         });
 
-        if (iAttr.$attr.statsHasTeaser) {
+        if (iAttr.$attr.hasTeaser) {
 
           var originalText = iElement.text();
 
