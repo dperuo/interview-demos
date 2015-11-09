@@ -1,5 +1,5 @@
 /**
- * Objects and Arrays are copied in 2 ways: Shallowly or Deeply
+ * Objects and Arrays are copied in 2 ways: Shallowly and Deeply
  */
 
 var myFancyObj = {
@@ -15,12 +15,12 @@ var myFancyObj = {
 };
 
 /**
- * In shallow copies data types are referenced from one variable to another.
+ * In shallow copies, data types are referenced from one variable to another.
  *
- * References are shared, and modifying values in one variable will
+ * References are shared and modifying values in one variable will
  * update values in the other.
  *
- * Shallow copies are simple and cheap. and are the default behavior.
+ * Shallow copies are simple and cheap. They are JavaScript's default behavior.
  */
 
 var shallowObj = myFancyObj;
@@ -40,7 +40,7 @@ console.log(myFancyObj.obj.string);
 // ==> 'bar'
 
 /**
- * In deep copies data types are copied from one variable to another.
+ * In deep copies, data types are copied from one variable to another.
  *
  * Deeply copied variables are distinct and independent. Modifying values
  * in one variable does nothing in the other.
