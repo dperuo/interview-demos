@@ -17,7 +17,7 @@ var myFancyObj = {
 /**
  * In shallow copies, data types are referenced from one variable to another.
  *
- * References are shared and modifying values in one variable will
+ * References are shared, and modifying values in one variable will
  * update values in the other.
  *
  * Shallow copies are simple and cheap. They are JavaScript's default behavior.

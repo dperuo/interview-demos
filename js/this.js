@@ -1,5 +1,5 @@
 /**
- * `this` references the current scope
+ * `this` references the current scope in one of four contexts.
  */
 
 /**
@@ -48,7 +48,7 @@ var obj = {
  }
 };
 
-console.log(obj.fn());
+obj.fn();
 // => 42
 
 /**
@@ -66,5 +66,5 @@ function Constructor() {
 
 var bar = new Constructor();
 
-console.log(bar.fn());
+bar.fn();
 // => 42

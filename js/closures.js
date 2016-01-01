@@ -3,7 +3,7 @@
  * Scopes limit access to variables based on position in the source code.
  */
 
-var question = 'What is the answer to the Ultimate Question of Life, The Universe, and Everything?';
+var question = 'What is the answer to the Ultimate Question?';
 
 // Functions define new scopes in JavaScript.
 function deepThought() {
