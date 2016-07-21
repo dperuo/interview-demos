@@ -10,7 +10,9 @@
  * stretches all the way up until a null object is reached. Null by definition
  * has no prototype and acts as the final link the chain.
  *
- * Object always inherit the properties and methods of their prototypes.
+ * Object always inherit the properties and methods of their prototypes. This
+ * means objects can share properties and methods across multiple instances
+ * without using large amounts of memory or resources.
  */
 
 function Enterprise() {
