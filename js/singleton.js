@@ -4,10 +4,10 @@
  * The Singleton Design Pattern limits the number of instances of a particular
  * object to just one and provides a global API for accessing that one object.
  *
- * Singletons are best used when properties and methods are accessed from
- * multiple points in the application.
+ * Singletons are best used when the same properties and methods must be
+ * accessed from multiple points in the application.
  *
- * Pub/Sub systems and constants are excellent use cases for singletons.
+ * Pub/Sub systems and variable constants are excellent use cases.
  *
  */
 
@@ -21,10 +21,20 @@ function getDeathstar() {
    }
  }
 
- return (!deathstar) ? buildDeathstar() : deathstar;
+ return (!DEATHSTAR) ? buildDeathstar() : DEATHSTAR;
 }
 
-const deathstar = getDeathstar();
+var DEATHSTAR = getDeathstar();
 
-Deathstar.target
-// ==> ''
+DEATHSTAR.target
+// ==> ""
+
+DEATHSTAR.target = 'Alderaan'
+
+DEATHSTAR.target
+// ==> "Alderaan"
+
+var DEATHSTAR = getDeathstar()
+
+DEATHSTAR.target
+// ==> "Alderaan"
