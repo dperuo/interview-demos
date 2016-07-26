@@ -21,7 +21,7 @@ var sliceArray = array.slice(2,4)
  * Array.prototype.splice(startIndex[, deleteCount, newData, newData, ...])
  *
  * Returns a new array containing the requested start and end indexes.
- * This action is non-distructive; the original array is unchanged.
+ * This action is distructive; the original array is changed.
  */
 
 var spliceArray = array.splice(2,4,10,11)
