@@ -1,1 +1,1 @@
-/// <reference path="./class.d.ts" />
+/// <reference path="./classes-objects.d.ts"/>
