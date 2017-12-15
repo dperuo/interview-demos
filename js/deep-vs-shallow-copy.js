@@ -2,7 +2,7 @@
  * Objects and Arrays are copied in 2 ways: Shallowly and Deeply
  */
 
-var myFancyObj = {
+const myFancyObj = {
   name: 'Jill',
   array: [1, 2, 3, 0, 4, 5],
   obj: {
@@ -10,7 +10,7 @@ var myFancyObj = {
     array: [1, 2, 3, 0, 4, 5]
   },
   fn: function(arg1, arg2) {
-    return [this.name, 'says', arg1, 'and', arg2].join(' ');
+    return `${this.name} says ${arg1} and ${arg2}`;
   }
 };
 
