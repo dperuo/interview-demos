@@ -23,7 +23,7 @@ const myFancyObj = {
  * Shallow copies are simple and cheap. They are JavaScript's default behavior.
  */
 
-var shallowObj = myFancyObj;
+const shallowObj = myFancyObj;
 
 console.log(shallowObj === myFancyObj);
 
@@ -50,7 +50,7 @@ console.log(myFancyObj.obj.string);
 
 
 // heyjavascript.com/4-creative-ways-to-clone-objects/
-var deepObj = JSON.parse(JSON.stringify(myFancyObj));
+const deepObj = JSON.parse(JSON.stringify(myFancyObj));
 
 console.log(deepObj === myFancyObj);
 
