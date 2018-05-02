@@ -1,9 +1,19 @@
 /**
  * Classes and Objects
  *
- * Classes are templates for objects and define object properties and
+ * Classes are templates for objects. They define object properties and
  * behaviors.
  */
+
+interface Starship {
+  captain: string
+  decks: number
+  maxCrew: number
+  maxWarp: number
+  name: string
+  registry: string
+  type: string
+}
 
 class GalaxyShip {
   info: Starship
