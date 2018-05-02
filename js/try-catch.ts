@@ -10,21 +10,22 @@
 const array = [1, 2, 3, 0, 4, 5]
 
 try {
- if (notdefined) {
+ if (notDefined) {
+   const result = true
+   console.log(result);
+ }
+} catch (e) {
+  throw Error(e)
+}
+
+// => Uncaught Error: ReferenceError: notDefined is not defined
+
+try {
+ if (array) {
    const result = true
  }
 } catch (e) {
   throw Error(e)
 }
 
-// => Uncaught Error: ReferenceError: notAnArray is not defined
-
-try {
- if (array) {
-   const bool = true
- }
-} catch (e) {
-  throw Error(e)
-}
-
-// => bool = true
+// => result = true
