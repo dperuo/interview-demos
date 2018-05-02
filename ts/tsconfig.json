@@ -8,7 +8,7 @@
     "outDir": "../js",
     "removeComments": false,
     "sourceMap": false,
-    "target": "es6"
+    "target": "es5"
   },
   "filesGlob": [
     "*.ts"

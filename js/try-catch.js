@@ -8,7 +8,7 @@
  */
 const array = [1, 2, 3, 0, 4, 5];
 try {
-    if (notDefined) {
+    if (notdefined) {
         const result = true;
     }
 }
