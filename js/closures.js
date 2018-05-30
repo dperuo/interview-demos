@@ -3,7 +3,7 @@
  * Scopes limit access to variables based on position in the source code.
  */
 
-var question = 'What is the answer to the Ultimate Question?';
+var question = "What is the answer to the Ultimate Question?";
 
 // Functions define new scopes in JavaScript.
 function deepThought() {
@@ -20,7 +20,7 @@ deepThought();
 
 function earth() {
   // Outer scopes cannot access inner scopes.
-  return (hasTheAnswer) ? 'cup of tea.' : 'panic!';
+  return hasTheAnswer ? "cup of tea." : "panic!";
 }
 
 earth();
