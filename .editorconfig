@@ -12,7 +12,7 @@ trim_trailing_whitespace = true
 max_line_length = off
 trim_trailing_whitespace = false
 
-[*.{cson,py}]
+[*.{cson,py,rst}]
 indent_size = 4
 
 [{M,m}akefile]
