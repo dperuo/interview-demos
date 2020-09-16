@@ -1,9 +1,21 @@
+declare var Set, Map;
+
 /**
  * Arrays, Objects, Sets and Maps
  * Methods of storing data in JavaScript.
  */
 
-let planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune', 'Pluto'];
+const planets = [
+  'Mercury',
+  'Venus',
+  'Earth',
+  'Mars',
+  'Jupiter',
+  'Saturn',
+  'Uranus',
+  'Neptune',
+  'Pluto'
+];
 
 /**
  * Arrays inherit their properties from the Array prototype object.
@@ -11,12 +23,12 @@ let planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus
  * Data in arrays are stored in sequence and accessed by index or value.
  */
 
-let Mars = {
-  Radius: 2106,
-  Day: '1d 0h 40m',
-  Mass: '0.107 Earth Masses',
-  Orbit: 687
-  Gravity: 3.711
+const Mars = {
+  day: '1d 0h 40m',
+  gravity: 3.711,
+  mass: '0.107 Earth Masses',
+  orbit: 687,
+  radius: 2106
 }
 
 /**
@@ -27,7 +39,7 @@ let Mars = {
  * Key-value pairs are sorted alphabetically. Values are accessed by key.
  */
 
-let planetSet = new Set();
+const planetSet = new Set();
 
 planetSet
   .add('Mercury')
