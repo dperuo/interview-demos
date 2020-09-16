@@ -1,5 +1,6 @@
 /**
- * Call, Apply and Bind change the context for `this`.
+ * Call, Apply and Bind change the context for `this` and
+ * partially apply arguments to a function.
  */
 
 const myFancyObj = {
