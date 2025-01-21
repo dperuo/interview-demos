@@ -1,0 +1,30 @@
+/* 
+ * DISPLAY VS VISIBILITY
+ * 
+ * Defines how elements are shown on a webpage.
+ * These properties affect page layout and content flow.
+ */
+
+/* 
+ * display:none
+ *
+ * Hides an element and removes it from page flow, as if the element never existed.
+ *
+ * The final width of .copperfield is 0.
+ */
+.copperfield {
+  display: none;
+  width: 300px;
+}
+
+/* 
+ * visibility:hidden
+ *
+ * Hide an element without removing it from page flow. 
+ * 
+ * The final width of .burton is 300px.
+ */
+.burton {
+  visibility: hidden;
+  width: 300px;
+}
