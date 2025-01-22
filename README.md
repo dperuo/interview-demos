@@ -14,10 +14,4 @@
 
 <br />
 
-## TypeScript and JavaScript
-
-See [here](./ts).
-
-## CSS
-
-See [here](./css).
+Also see StackBlitz for more complex expeiments and Proofs of Concept
