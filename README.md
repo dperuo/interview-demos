@@ -14,4 +14,4 @@
 
 <br />
 
-Also see StackBlitz for more complex expeiments and Proofs of Concept
+Also see [StackBlitz](https://stackblitz.com/@dperuo) for more complex expeiments and Proofs of Concept
